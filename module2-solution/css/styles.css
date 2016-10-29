@@ -1,0 +1,78 @@
+body {
+    margin-left: 15px;
+    margin-right: 0px;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+section {
+  font-family: Helvetica;
+  padding: 10px;
+  clear: right;
+}
+
+nav {
+  margin-right:15px;
+  background-color: gray;
+  border: 1px solid black;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size: 175%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 125%;
+  padding: 3px;
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 40%;
+}
+
+.Chicken {
+  background-color: pink;
+  float: right;
+}
+
+.Beef {
+  background-color: red;
+  float: right;
+  color: white;
+}
+
+.Sushi {
+  background-color: yellow;
+  float: right;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+   width: 33.33%;
+   float: left;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+  .col-lg-6 {
+   width: 50%;
+   float: left;
+  }
+
+  .col-lg-12 {
+   width: 100%;
+   float: left;
+  }
+
+  .tablet-width {
+   width: 20%;
+  }
+}
